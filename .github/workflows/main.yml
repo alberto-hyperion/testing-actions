@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: actions/testing-actions
+      uses: alberto-hyperion/testing-actions@v1 # {org}/{repo}[/path]@ref
       with:
         who-to-greet: 'Alberto'
     # Use the output from the `hello` step
