@@ -19,6 +19,6 @@ The time we greeted you.
 
 ## Example usage
 
-uses: actions/hello-world-docker-action@v1
+uses: alberto-hyperion/testing-actions@v1
 with:
-  who-to-greet: 'Mona the Octocat'
+  who-to-greet: 'Alberto'
